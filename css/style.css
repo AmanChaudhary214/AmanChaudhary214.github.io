@@ -192,6 +192,7 @@ img {
     color: var(--title-color);
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+    transition: 0.3s;
 }
 
 .nav_logo span {
@@ -201,6 +202,7 @@ img {
 
 .nav_logo:hover {
     color: var(--first-color);
+    transform: scale(1.1);
 }
 
 .nav_toggle {
@@ -300,7 +302,7 @@ img {
 
 .home_social-icon:hover {
     color: var(--first-color-alt);
-    transform: translateX(0.25rem);
+    transform: translateX(0.5rem);
 }
 
 .home_blob {
@@ -722,10 +724,6 @@ img {
     outline: none;
 }
 
-
-
-
-
 /* ====== STATISTICS ====== */
 .statistics_container {
     display: flex;
@@ -1143,7 +1141,7 @@ img {
         right: -3.5rem;
     }
 
-    .swiper-container-horizontal > .swiper-pagination-bullets {
+    .swiper-container-horizontal>.swiper-pagination-bullets {
         bottom: -4.5rem;
     }
 

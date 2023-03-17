@@ -8,14 +8,14 @@
     <link rel="icon" href="/images/head-logo.png" type="image/icon type">
     <title>Aman Chaudhary | Portfolio</title>
 
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 
 <body>
 
-    <!-- ========== Header ========== -->
+    <!-- ========== HEADER ========== -->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="" class="nav_logo"><span>A</span>MAN.</a>
@@ -73,6 +73,7 @@
 
     <!-- ========== MAIN ========== -->
     <main class="main">
+
         <!-- ========== Home ========== -->
         <section class="home section" id="home">
             <div class="home_container container grid">
@@ -135,15 +136,15 @@
         <section class="about section" id="about">
             <h2 class="section_title">About Me</h2>
 
-            <!-- ========== Introduction ========== -->
+            <!-- ========== About - Introduction ========== -->
             <div class="about_container container grid">
                 <img src="/images/profile-full.jpg" alt="" class="about_img">
                 <div class="about_data">
                     <p class="about_description">A civil engineer by educational qualification but have always been a
                         coder at heart. It was my love for it, that after my graduation I decided to pursue it.
                         Passionate to learn new things to stay relevant and productive. Strongly interested in working
-                        for and growing with an organization where my knowledge and skills can be utilized.
-                        Apart from tech, I am passionate about photography. Also, I love writing quotations.</p>
+                        for and growing with an organization where my knowledge and skills can be utilized.<br>
+                        Apart from tech, I am passionate about photography and love writing quotations.</p>
                     <div class="about_info">
                         <div>
                             <span class="about_info-title">1200+</span>
@@ -166,7 +167,7 @@
                 </div>
             </div>
 
-            <!-- ========== Qualification ========== -->
+            <!-- ========== About - Qualification ========== -->
             <div class="qualification">
                 <h2 class="section_title qualification_title_main">Qualifications</h2>
 
@@ -497,7 +498,7 @@
         </section>
 
         <!-- ========== Projects ========== -->
-        <section class="portfolio section" id="portfolio">
+        <section class="portfolio section" id="projects">
             <h2 class="section_title">Projects</h2>
 
             <div class="portfolio_container container swiper-container">
@@ -587,11 +588,14 @@
             <h2 class="section_title">Statistics</h2>
             <span class="section_subtitle">My Github Statistics</span>
             <div class="statistics_container container grid">
-                <img src="https://github-readme-stats.vercel.app/api?username=AmanChaudhary214&theme=default&hide_border=false&include_all_commits=true&count_private=true"
+                <img id="github-stats-card"
+                    src="https://github-readme-stats.vercel.app/api?username=AmanChaudhary214&theme=default&hide_border=false&include_all_commits=true&count_private=true"
                     alt="">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanChaudhary214&theme=default&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+                <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanChaudhary214&theme=default&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
                     alt="">
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmanChaudhary214&theme=default&hide_border=false"
+                <img id="github-streak-stats"
+                    src="https://github-readme-streak-stats.herokuapp.com/?user=AmanChaudhary214&theme=default&hide_border=false"
                     alt="">
             </div>
         </section>
@@ -659,6 +663,7 @@
                 </form>
             </div>
         </section>
+
     </main>
 
     <!-- ========== FOOTER ========== -->
@@ -699,9 +704,9 @@
     <!-- ==================== AUTO-TYPE SCRIPT ==================== -->
     <script>
         var typed = new Typed(".auto-type", {
-            strings: ["Java Backend Developer"],
-            typeSpeed: 75,
-            backSpeed: 75,
+            strings: ["Java Backend Developer", "Photohraphy Enthusiast"],
+            typeSpeed: 50,
+            backSpeed: 50,
             loop: true,
         });
     </script>
@@ -720,7 +725,7 @@
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            mousewheel: true,
+            //mousewheel: true,
             keyboard: true,
         });
 
