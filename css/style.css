@@ -882,6 +882,12 @@ img {
     background-color: var(--text-color-light);
 }
 
+.counter {
+    display: flex;
+    justify-content: right;
+    margin-right: var(--mb-3);
+}
+
 
 /* ============ MEDIA QUERIES ============ */
 /* ====== For small devices ====== */
