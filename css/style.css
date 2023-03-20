@@ -885,7 +885,7 @@ img {
 .counter {
     display: flex;
     justify-content: right;
-    margin-right: var(--mb-3);
+    margin-right: 60px;
 }
 
 
