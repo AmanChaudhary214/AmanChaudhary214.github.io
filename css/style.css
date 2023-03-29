@@ -154,7 +154,8 @@ img {
 .section_subtitle {
     display: block;
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-1);
+    margin-top: var(--mb-3);
 }
 
 .section_title,
@@ -396,6 +397,7 @@ img {
 .home_scroll {
     /* display: none; */
     padding: 0 1rem 0;
+    margin-top: var(--mb-0-5);
 }
 
 .home_scroll-button {

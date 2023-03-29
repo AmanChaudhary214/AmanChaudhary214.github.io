@@ -55,7 +55,7 @@
                     <li class="nav_item">
                         <a href="images/Aman_Chaudhary_Resume.pdf"
                             onclick="window.open('images/Aman_Chaudhary_Resume.pdf')" target="_blank" download
-                            class="nav_link nav-link resume" id="resume-button-1">
+                            class="nav_link resume" id="resume-button-1">
                             <i class="uil uil-download-alt nav_icon"></i> Resume
                         </a>
                     </li>
@@ -148,12 +148,12 @@
             <div class="about_container container grid">
                 <img src="/images/profile-full.jpg" alt="" class="about_img">
                 <div class="about_data">
-                    <p class="about_description" id="user-detail-intro">A civil engineer by educational qualification but
-                        have always been
-                        passionate about coding. After graduation, I pursued my love for web development, becoming
-                        skilled in Java, MySQL, JDBC, Hibernate, Spring, and JavaScript. I excel in problem-solving and
-                        thrive on learning. I seek a career with an organization where I can grow and utilize my
-                        skills.<br>Apart from tech, I'm also an avid photographer and quote writer.</p>
+                    <p class="about_description" id="user-detail-intro">A civil engineer by educational qualification
+                        but have always been passionate about coding. After graduation, I pursued my love for web
+                        development, becoming skilled in Java, MySQL, JDBC, Hibernate, Spring, and JavaScript. I excel
+                        in problem-solving and thrive on learning. I seek a career with an organization where I can grow
+                        and utilize my kills.<br>Apart from tech, I'm also an avid photographer and quote writer.
+                    </p>
                     <div class="about_info">
                         <div>
                             <span class="about_info-title">1200+</span>
@@ -613,8 +613,8 @@
                     src="https://github-readme-streak-stats.herokuapp.com/?user=AmanChaudhary214&theme=default&hide_border=false"
                     alt="github-streak-stats">
             </div>
-            <span class="calendar_heading">Github Calendar</span>
-            <div class="calendar">
+            <span class="section_subtitle">Github Calendar</span>
+            <div class="react-activity-calendar calendar">
                 <!-- Loading stuff -->
                 Loading the data just for you.
             </div>
@@ -722,7 +722,6 @@
     <script src="/script/script.js"></script>
     <script src="/script/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <!-- <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script> -->
 
     <!-- ==================== AUTO-TYPE SCRIPT ==================== -->
     <script>
@@ -766,7 +765,12 @@
 
     <!-- ==================== GITHUB CALENDER ==================== -->
     <script>
-        GitHubCalendar(".calendar", "AmanChaudhary214", { responsive: true });
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "AmanChaudhary214", {
+            responsive: true,
+            global_stats: true,
+            tooltips: true,
+        });
     </script>
 
 </body>

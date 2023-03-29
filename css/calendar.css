@@ -1,6 +1,6 @@
 :root {
     --color-calendar-graph-day-bg: #dddbdb;
-    --color-calendar-graph-day-L1-bg: #e05757;
+    --color-calendar-graph-day-L1-bg: #e36868;
     --color-calendar-graph-day-L2-bg: #9d4040;
     --color-calendar-graph-day-L3-bg: #723030;
     --color-calendar-graph-day-L4-bg: #4f2727;
@@ -26,10 +26,6 @@ rect.ContributionCalendar-day[data-level='4'] {
     fill: var(--color-calendar-graph-day-L4-bg);
 }
 
-rect.ContributionCalendar-day:hover{
-    cursor: pointer;
-}
-
 .calendar .width-full>.float-left {
     display: none;
 }
@@ -41,21 +37,14 @@ rect.ContributionCalendar-day:hover{
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.5s;
 }
 
 .calendar:hover {
+    cursor: pointer;
     transform: scale(1.025);
-}
-
-.calendar_heading {
-    display: block;
-    text-align: center;
-    font-size: var(--h3-font-size);
-    margin-top: var(--mb-3);
-    margin-bottom: var(--mb-1-5);
 }
 
 .calendar-graph text.wday,
@@ -121,7 +110,7 @@ rect.ContributionCalendar-day:hover{
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: rgb(224,87,87);
+    color: rgb(224, 87, 87);
 }
 
 .calendar img.spinner {
@@ -153,7 +142,7 @@ rect.ContributionCalendar-day:hover{
 .left.text-muted {
     float: left;
     margin-left: 9px;
-    color: b;
+    color: #767676;
 }
 
 .left.text-muted a {
@@ -210,10 +199,10 @@ h2.f4.text-normal.mb-3 {
     margin: 0 0 0 -5px;
     content: " ";
     border: 5px solid transparent;
-    border-top-color: rgba(0, 0, 0, .85);
+    border-top-color: rgba(0, 0, 0, .85)
 }
 
 text.ContributionCalendar-label {
-    fill: #767676;
-    font-size: 8px;
+    fill: #ccc;
+    font-size: 9px;
 }
