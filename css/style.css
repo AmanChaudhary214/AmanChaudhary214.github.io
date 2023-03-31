@@ -1218,7 +1218,9 @@ img {
     }
 
     .contact_form {
+        margin: auto;
         width: 500px;
+        border: 1px solid;
     }
 
     .contact_inputs {
