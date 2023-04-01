@@ -794,7 +794,7 @@ img {
 .contact_message {
     text-align: left;
     color: var(--text-color-light);
-    font-size: var(--small-font-size);
+    font-size: var(--font-size);
     margin-bottom: var(--mb-2);
 }
 

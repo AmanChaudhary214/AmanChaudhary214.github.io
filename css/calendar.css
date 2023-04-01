@@ -44,7 +44,7 @@ rect.ContributionCalendar-day[data-level='4'] {
 
 .calendar:hover {
     cursor: pointer;
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
 }
 
 .calendar-graph text.wday,
