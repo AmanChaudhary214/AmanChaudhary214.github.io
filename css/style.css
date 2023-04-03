@@ -199,6 +199,7 @@ img {
 }
 
 .sec_button {
+    margin-top: 1rem;
     background-color: var(--body-color);
     border: 2px solid var(--first-color);
     color: var(--first-color);
@@ -707,6 +708,7 @@ img {
     height: 200px;
     border-radius: 0.5rem;
     justify-self: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .portfolio_title {
@@ -738,6 +740,16 @@ img {
     color: var(--first-color);
 }
 
+.swiper-button-prev:hover {
+    transform: translateX(-0.5rem);
+    text-shadow: 15px 0px 5px var(--text-color-light);
+}
+
+.swiper-button-next:hover {
+    transform: translateX(0.5rem);
+    text-shadow: -15px 0px 5px var(--text-color-light);
+}
+
 .swiper-portfolio-icon {
     font-size: 2rem;
     color: var(--first-color);
@@ -745,10 +757,12 @@ img {
 
 .swiper-button-prev {
     left: -0.5rem;
+    transition: 0.5s;
 }
 
 .swiper-button-next {
     right: -0.5rem;
+    transition: 0.5s;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets {
