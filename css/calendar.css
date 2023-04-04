@@ -42,12 +42,6 @@ rect.ContributionCalendar-day[data-level='4'] {
     transition: 0.5s;
 }
 
-@media screen and (max-width: 1024px) {
-    .calendar {
-        width: 95%;
-    }
-}
-
 .calendar:hover {
     cursor: pointer;
     /* transform: scale(1.02); */
@@ -211,4 +205,24 @@ h2.f4.text-normal.mb-3 {
 text.ContributionCalendar-label {
     fill: #ccc;
     font-size: 9px;
+}
+
+@media screen and (max-width: 1024px) {
+    .calendar {
+        width: 95%;
+        min-height: 150px;
+        padding: 10px;
+    }
+
+    .text-small {
+        font-size: 10px;
+    }
+
+    .contrib-number {
+        font-size: 15px;
+    }
+
+    .text-muted {
+        font-size: 10px;
+    }
 }
