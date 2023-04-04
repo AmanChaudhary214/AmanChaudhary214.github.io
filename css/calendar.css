@@ -42,6 +42,12 @@ rect.ContributionCalendar-day[data-level='4'] {
     transition: 0.5s;
 }
 
+@media screen and (max-width: 1024px) {
+    .calendar {
+        width: 95%;
+    }
+}
+
 .calendar:hover {
     cursor: pointer;
     /* transform: scale(1.02); */
