@@ -555,6 +555,12 @@ img {
 }
 
 /* ====== SKILLS ====== */
+.skills_container {
+    padding: 30px 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 25px 0px;
+}
+
 .skills_content {
     row-gap: 0;
 }
@@ -587,7 +593,7 @@ img {
 
 .skills_arrow {
     margin-left: auto;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .skills_list {
@@ -684,11 +690,13 @@ img {
 .skills_close .skills_list {
     height: 0;
     overflow: hidden;
+    transition: 0.5s;
 }
 
 .skills_open .skills_list {
     height: max-content;
     margin-bottom: var(--mb-2-5);
+    transition: 0.5s;
 }
 
 .skills_open .skills_arrow {
