@@ -44,7 +44,6 @@ rect.ContributionCalendar-day[data-level='4'] {
 
 .calendar:hover {
     cursor: pointer;
-    /* transform: scale(1.02); */
 }
 
 .calendar-graph text.wday,
@@ -57,7 +56,6 @@ rect.ContributionCalendar-day[data-level='4'] {
     text-align: right;
     padding: 0 14px 10px 0;
     display: inline-block;
-    float: right;
 }
 
 .contrib-legend .legend {
@@ -90,7 +88,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     text-align: center;
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .contrib-column-first {
@@ -215,14 +213,23 @@ text.ContributionCalendar-label {
     }
 
     .text-small {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .contrib-number {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .text-muted {
-        font-size: 10px;
+        font-size: 7px;
+    }
+    
+    .float-right {
+        font-size: 8px;
+    }
+
+    .d-inline-block {
+        width: 5px;
+        height: 5px;
     }
 }
