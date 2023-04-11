@@ -1080,11 +1080,11 @@ img {
         background-color: var(--first-color);
     }
 
-    #resume-link-1 {
+    #resume-button>a {
         color: var(--first-color);
     }
 
-    #resume-link-1:hover {
+    #resume-button>a:hover {
         color: #fff;
     }
 
