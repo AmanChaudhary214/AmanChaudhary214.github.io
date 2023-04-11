@@ -195,7 +195,7 @@ img {
     margin-right: var(--mb-0-75);
 }
 
-#resume-button-2>a {
+#resume-button-2 {
     font-size: var(--normal-font-size);
     color: #fff;
     font-family: 'Poppins', sans-serif;
