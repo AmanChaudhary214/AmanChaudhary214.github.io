@@ -38,7 +38,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     width: 80%;
     margin: 0 auto;
     padding: 1.5rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 25px 0px;
+    box-shadow: rgba(100, 100, 111, 0.15) 0px 5px 25px 0px;
     transition: 0.5s;
 }
 

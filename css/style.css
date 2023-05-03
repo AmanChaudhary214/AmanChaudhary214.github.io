@@ -141,7 +141,7 @@ img {
 
 /* =========== Reusable Css Classes ========== */
 .section {
-    padding: 2rem 0 4rem;
+    padding: 2rem 0 2rem;
 }
 
 .section_title {
@@ -175,6 +175,14 @@ img {
 .section_subtitle {
     text-align: center;
     padding: 0 2rem 0;
+}
+
+.hr_break_line {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(224, 87, 7, 0.75), rgba(0, 0, 0, 0));
+    margin: 2rem auto 2rem;
 }
 
 /* ===== Buttons ===== */
@@ -480,14 +488,14 @@ img {
 }
 
 .about_info>div {
-    padding: var(--mb-0-25) var(--mb-1) var(--mb-0-25);
-    border: 2px solid transparent;
+    padding: var(--mb-0-5) var(--mb-1-5) var(--mb-0-5);
+    border: 1px solid transparent;
     border-radius: 0.75rem;
     transition: 0.5s;
 }
 
 .about_info>div:hover {
-    border: 2px solid var(--first-color);
+    border: 1px solid var(--first-color);
     cursor: pointer;
 }
 
@@ -516,11 +524,12 @@ img {
 .qualification_tabs {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 4rem;
     margin-bottom: var(--mb-2);
 }
 
 .qualification_button {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
     cursor: pointer;
 }
@@ -530,7 +539,7 @@ img {
 }
 
 .qualification_icon {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-right: var(--mb-0-25);
 }
 
@@ -548,7 +557,7 @@ img {
 .qualification_subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-5);
 }
 
 .qualification_calender {
@@ -578,6 +587,7 @@ img {
 
 .qualification_active[data-content] {
     display: block;
+    
 }
 
 .qualification_button.qualification_active {
@@ -586,9 +596,9 @@ img {
 
 /* ====== SKILLS ====== */
 .skills_container {
-    padding: 30px 25px 0;
+    padding: 25px 20px 0;
     border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 25px 0px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 5px 25px 0px;
 }
 
 .skills_content {
@@ -1056,6 +1066,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .skills_container {
+        padding: 40px 30px 0;
+    }
+
     .qualification_sections {
         display: grid;
         grid-template-columns: 0.6fr;
@@ -1098,7 +1112,7 @@ img {
     }
 
     .section {
-        padding: 6rem 0 2rem;
+        padding: 5rem 0 3rem;
     }
 
     .header {
@@ -1168,10 +1182,6 @@ img {
     .about_description {
         text-align: initial;
         width: 350px;
-    }
-
-    .qualification_title_main {
-        margin-top: var(--mb-3);
     }
 
     .qualification_tabs {
