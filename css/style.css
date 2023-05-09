@@ -154,7 +154,6 @@ img {
 
 .section_title:hover {
     transform: translateY(-0.25rem);
-    text-shadow: 0px 2px 5px var(--text-color-light);
 }
 
 .section_subtitle {
@@ -168,7 +167,6 @@ img {
 .section_subtitle:hover {
     color: var(--text-color);
     transform: translateY(-0.25rem);
-    text-shadow: 0px 4px 4px var(--text-color-light);
 }
 
 .section_title,
