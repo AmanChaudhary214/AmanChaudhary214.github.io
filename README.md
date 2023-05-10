@@ -30,7 +30,7 @@
 ## ![Contact Section](https://img.shields.io/badge/contact_section-%231572B6.svg?style=for-the-badge)
 ![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/contact-dark.png)
 
-# ![Footer Section](https://img.shields.io/badge/footer_section-%231572B6.svg?style=for-the-badge)
+## ![Footer Section](https://img.shields.io/badge/footer_section-%231572B6.svg?style=for-the-badge)
 ![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/footer-dark.png)
 
 
