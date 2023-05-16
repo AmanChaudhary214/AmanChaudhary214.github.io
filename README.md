@@ -19,7 +19,7 @@
 ![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/about-dark.png)
 
 ## ![Skills Section](https://img.shields.io/badge/skills_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/skills-dark.png)
+![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/skiils-dark.png)
 
 ## ![Project Section](https://img.shields.io/badge/project_section-%231572B6.svg?style=for-the-badge)
 ![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/projects-dark.png)
