@@ -26,6 +26,7 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 
+
 /*==================== SKILLS ====================*/
 const skillsContent = document.getElementsByClassName("skills_content");
 skillsHeader = document.querySelectorAll(".skills_header");
@@ -49,7 +50,7 @@ skillsHeader.forEach((element) => {
 
 /*==================== QUALIFICATION ====================*/
 const tabs = document.querySelectorAll('[data-target]')
-      tabContents = document.querySelectorAll('[data-content]')
+tabContents = document.querySelectorAll('[data-content]')
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {

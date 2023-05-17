@@ -208,6 +208,7 @@ img {
 }
 
 .button:hover {
+    cursor: pointer;
     background-color: var(--first-color-alt);
     transform: scale(1.05);
 }

@@ -720,29 +720,29 @@
                         </div>
                     </div>
                 </div>
-                <form action="https://formspree.io/f/mwkjzwvn" method="POST" class="contact_form grid">
+                <form action="https://formspree.io/f/mwkjzwvn" method="post" class="contact_form grid">
                     <div class="contact_inputs grid">
                         <div class="contact_content">
-                            <label for="" class="contact_label">Name</label>
-                            <input type="text" class="contact_input">
+                            <label for="name" class="contact_label">Name</label>
+                            <input name="name" type="text" class="contact_input">
                         </div>
                         <div class="contact_content">
-                            <label for="" class="contact_label">Email</label>
-                            <input type="email" class="contact_input" required>
+                            <label for="email" class="contact_label">Email</label>
+                            <input name="email" type="email" class="contact_input" required>
                         </div>
                     </div>
                     <div class="contact_content">
-                        <label for="" class="contact_label">Project</label>
-                        <input type="text" class="contact_input">
+                        <label for="project" class="contact_label">Project</label>
+                        <input name="project" type="text" class="contact_input">
                     </div>
                     <div class="contact_content">
-                        <label for="" class="contact_label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                        <label for="message" class="contact_label">Message</label>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
                     </div>
                     <div>
-                        <a href="#" class="button button-flex">Send Message
+                        <button class="button button-flex" type="submit">Send Message
                             <i class="uil uil-message button_icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -751,7 +751,9 @@
 
         <hr class="hr_break_line">
 
+
     </main>
+
 
     <!-- ========== FOOTER ========== -->
     <footer class="footer">
@@ -784,6 +786,7 @@
             </div>
         </div>
     </footer>
+
 
     <!-- ========== SCROLL TOP ========== -->
     <a href="#home" class="scrollup" id="scroll-up">
