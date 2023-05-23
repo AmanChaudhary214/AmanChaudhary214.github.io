@@ -799,6 +799,7 @@
     <script src="/script/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- ==================== AUTO-TYPE SCRIPT ==================== -->
     <script>
@@ -848,6 +849,49 @@
             global_stats: true,
             tooltips: true,
         });
+    </script>
+
+    <!-- ==================== SCROLL REVEAL ANIMATION ==================== -->
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        })
+
+        // sr.reveal('.nav', {});
+        // sr.reveal('.nav_list>li', { interval: 100 });
+
+        sr.reveal('.home_data', {});
+        sr.reveal('.home_img', { delay: 200 });
+        sr.reveal('.home_social', { delay: 400 });
+        sr.reveal('.home_social-icon', { interval: 100 });
+        sr.reveal('.home_scroll', { delay: 600 });
+
+        sr.reveal('.about_img', {});
+        sr.reveal('.about_data', { delay: 200 });
+        sr.reveal('.about_info', { interval: 200 });
+        sr.reveal('.about_buttons', { interval: 200 });
+        sr.reveal('.qualification', { delay: 400 });
+
+        sr.reveal('.skills_container', {});
+        sr.reveal('.skills_content', { delay: 200 });
+        sr.reveal('.skills_header', { interval: 300 });
+
+        sr.reveal('.section_subtitle', {});
+        sr.reveal('.portfolio_container', { delay: 200 });
+        sr.reveal('.portfolio_container', { delay: 200 });
+
+        sr.reveal('.statistics_container>img', { interval: 200 });
+        sr.reveal('.calendar', { delay: 300 });
+
+        sr.reveal('.contact_container', {});
+        sr.reveal('.contact_information', { interval: 200 });
+        sr.reveal('form>div', { interval: 200 });
+
+        sr.reveal('.footer', {});
+        sr.reveal('.footer_container>div', { interval: 200 });
     </script>
 
 </body>
