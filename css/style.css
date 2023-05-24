@@ -382,7 +382,7 @@ img {
 .home_social {
     display: grid;
     grid-template-columns: max-content;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .home_social-icon {
@@ -796,12 +796,10 @@ img {
 
 .swiper-button-prev:hover {
     transform: translateX(-0.5rem);
-    text-shadow: 15px 0px 5px var(--text-color-light);
 }
 
 .swiper-button-next:hover {
     transform: translateX(0.5rem);
-    text-shadow: -15px 0px 5px var(--text-color-light);
 }
 
 .swiper-portfolio-icon {

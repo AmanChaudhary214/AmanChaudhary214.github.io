@@ -97,11 +97,12 @@
                             class="home_social-icon">
                             <i class="uil uil-twitter-alt"></i>
                         </a>
-                        <a id="contact-email" href="https://www.instagram.com/tilted_._tripod/" target="_blank"
+                        <!-- <a id="contact-email" href="https://www.instagram.com/tilted_._tripod/" target="_blank"
                             class="home_social-icon">
                             <i class="uil uil-instagram"></i>
-                        </a>
+                        </a> -->
                     </div>
+
                     <div class="home_img">
                         <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -119,6 +120,20 @@
                                 <image x="12" class="home_blob-img" href="/images/profile-full.png" />
                             </g>
                         </svg>
+
+                        <!-- <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path
+                                    d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path
+                                    d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                                <image class="home__blob-img" x="50" y="60" href="/images/profile-full.png" />
+                            </g>
+                        </svg> -->
+
                     </div>
 
                     <div class="home_data">
@@ -857,41 +872,40 @@
             origin: 'top',
             distance: '50px',
             duration: 2000,
-            reset: true
+            // reset: true
         })
 
         // sr.reveal('.nav', {});
-        // sr.reveal('.nav_list>li', { interval: 100 });
+        //sr.reveal('.nav_list>li', { interval: 100 });
 
-        sr.reveal('.home_data', {});
+        sr.reveal('.home_data', { delay: 200 });
         sr.reveal('.home_img', { delay: 200 });
-        sr.reveal('.home_social', { delay: 400 });
+        sr.reveal('.home_social', { delay: 200 });
         sr.reveal('.home_social-icon', { interval: 100 });
-        sr.reveal('.home_scroll', { delay: 600 });
+        sr.reveal('.home_scroll', { delay: 200 });
 
-        sr.reveal('.about_img', {});
+        sr.reveal('.about_img', { delay: 200 });
         sr.reveal('.about_data', { delay: 200 });
         sr.reveal('.about_info', { interval: 200 });
-        sr.reveal('.about_buttons', { interval: 200 });
-        sr.reveal('.qualification', { delay: 400 });
+        sr.reveal('.about_buttons', { interval: 100 });
+        sr.reveal('.qualification', { delay: 200 });
 
         sr.reveal('.skills_container', {});
         sr.reveal('.skills_content', { delay: 200 });
-        sr.reveal('.skills_header', { interval: 300 });
+        sr.reveal('.skills_header', { interval: 100 });
 
-        sr.reveal('.section_subtitle', {});
-        sr.reveal('.portfolio_container', { delay: 200 });
+        sr.reveal('.section_subtitle', { delay: 200 });
         sr.reveal('.portfolio_container', { delay: 200 });
 
-        sr.reveal('.statistics_container>img', { interval: 200 });
-        sr.reveal('.calendar', { delay: 300 });
+        sr.reveal('.statistics_container>img', { interval: 100 });
+        sr.reveal('.calendar', { delay: 200 });
 
         sr.reveal('.contact_container', {});
-        sr.reveal('.contact_information', { interval: 200 });
+        sr.reveal('.contact_information', { interval: 100 });
         sr.reveal('form>div', { interval: 200 });
 
         sr.reveal('.footer', {});
-        sr.reveal('.footer_container>div', { interval: 200 });
+        sr.reveal('.footer_container>div', { interval: 100 });
     </script>
 
 </body>
