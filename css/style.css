@@ -644,12 +644,16 @@ img {
 .skills_titles {
     display: flex;
     justify-content: space-between;
-    margin-bottom: var(--mb-0-5);
+    /* margin-bottom: var(--mb-0-25); */
 }
 
 .skills_name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+}
+
+.skills_name>span {
+    font-size: var(--h2-font-size);
 }
 
 .skills_bar,
@@ -716,7 +720,7 @@ img {
 }
 
 .skills_github {
-    width: 75%;
+    width: 80%;
 }
 
 .skills_postman {
