@@ -6,7 +6,7 @@
 </p> 
 
 
-<p align=center >My portfolio website adaptable to all devices, with UI components and animated interactions.</p>
+<p align=center >My portfolio website is adaptable to all devices, with UI components and animated interactions.</p>
 <p align=center>
     <a href="https://amanchaudhary214.github.io/" target="blank">Visit Portfolio !</a>
 </p>
