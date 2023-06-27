@@ -595,7 +595,7 @@ img {
 
 /* ====== SKILLS ====== */
 .skills_container {
-    padding: 25px 20px 0;
+    padding: 2rem 1.5rem 0;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 5px 25px 0px;
 }
@@ -637,14 +637,13 @@ img {
 
 .skills_list {
     row-gap: 1.5rem;
-    padding-left: 25px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .skills_titles {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: var(--mb-0-25); */
 }
 
 .skills_name {
@@ -652,8 +651,10 @@ img {
     font-weight: var(--font-medium);
 }
 
-.skills_name>span {
+.skills_titles>span {
+    color: var(--title-color);
     font-size: var(--h2-font-size);
+    margin-right: 0.5rem;
 }
 
 .skills_bar,
@@ -662,73 +663,9 @@ img {
     border-radius: 0.25rem;
 }
 
-.skills_bar {
-    background-color: var(--first-color-lighter);
-}
-
 .skills_percentage {
     display: block;
     background-color: var(--first-color);
-}
-
-.skills_html {
-    width: 90%;
-}
-
-.skills_css {
-    width: 80%;
-}
-
-.skills_js {
-    width: 75%;
-}
-
-.skills_java {
-    width: 75%;
-}
-
-.skills_spring {
-    width: 75%;
-}
-
-.skills_sql {
-    width: 75%;
-}
-
-.skills_jdbc {
-    width: 75%;
-}
-
-.skills_hibernate {
-    width: 75%;
-}
-
-.skills_canva {
-    width: 80%;
-}
-
-.skills_lightroom {
-    width: 75%;
-}
-
-.skills_autocad {
-    width: 90%;
-}
-
-.skills_vscode {
-    width: 80%;
-}
-
-.skills_github {
-    width: 80%;
-}
-
-.skills_postman {
-    width: 60%;
-}
-
-.skills_codepen {
-    width: 50%;
 }
 
 .skills_close .skills_list {
@@ -1285,7 +1222,7 @@ img {
     }
 
     .skills_container {
-        gap: 6rem;
+        gap: 8rem;
     }
 
     .portfolio_img {
