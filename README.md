@@ -13,26 +13,25 @@
 
 
 ## ![Home Section](https://img.shields.io/badge/home_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/Portfolio-Dark.png)
+![image](https://i.postimg.cc/L8HJQGRj/Portfolio-Dark.png)
 
 ## ![About Section](https://img.shields.io/badge/about_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/about-dark.png)
+![image](https://i.postimg.cc/LXrqyX6s/about.png)
 
 ## ![Skills Section](https://img.shields.io/badge/skills_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/skiils-dark.png)
+![image](https://i.postimg.cc/xd8cnHXC/skills.png)
 
 ## ![Project Section](https://img.shields.io/badge/project_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/projects-dark.png)
+![image](https://i.postimg.cc/hGYhjjm0/projects.png)
 
 ## ![Statistics Section](https://img.shields.io/badge/statistics_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/statistics-dark.png)
+![image](https://i.postimg.cc/kG34Qpf6/statistics.png)
 
 ## ![Contact Section](https://img.shields.io/badge/contact_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/contact-dark.png)
+![image](https://i.postimg.cc/Y2WLv1bL/contact.png)
 
 ## ![Footer Section](https://img.shields.io/badge/footer_section-%231572B6.svg?style=for-the-badge)
-![image](https://github.com/AmanChaudhary214/AmanChaudhary214.github.io/blob/master/screenshot-images/footer-dark.png)
+![image](https://i.postimg.cc/28NbhVKc/footer.png)
 
 
-
-Thanks [Ionică Bizău](https://github.com/IonicaBizau) for GitHub calendar.
+Thanks [Ionică Bizău](https://github.com/IonicaBizau) for the GitHub calendar.
