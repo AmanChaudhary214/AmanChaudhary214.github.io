@@ -139,6 +139,13 @@ img {
     height: auto;
 }
 
+main>p {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: var(--mb-3);
+}
+
 /* =========== Reusable Css Classes ========== */
 .section {
     padding: 2rem 0 2rem;
@@ -477,7 +484,7 @@ img {
 
 .about_description {
     text-align: justify;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-2);
 }
 
 .about_info {
@@ -787,7 +794,7 @@ img {
     cursor: pointer;
 }
 
-/* ====== CONTANT ====== */
+/* ====== CONTACT ====== */
 .contact_container {
     row-gap: 3rem;
 }
@@ -1131,7 +1138,7 @@ img {
     }
 
     .about_description {
-        text-align: initial;
+        text-align: justify;
         width: 450px;
     }
 
@@ -1211,8 +1218,13 @@ img {
     }
 
     .about_description {
-        width: 90%;
+        margin: auto;
+        width: 95%;
         text-align: justify;
+    }
+
+    .about_info {
+        margin-top: var(--mb-1-5);
     }
 
     .skills_container {
