@@ -6,32 +6,14 @@
 </p> 
 
 
-<p align=center >My portfolio website is adaptable to all devices, with UI components and animated interactions.</p>
+<p align=center >My portfolio website encompasses user interface elements and dynamic animations,<br>while also being fully responsive across various devices.</p>
 <p align=center>
-    <a href="https://amanchaudhary214.github.io/" target="blank">Visit Portfolio !</a>
+    <a href="https://amanchaudhary214.github.io/" target="blank">🔗 Visit Portfolio ! </a>
 </p>
 
+<br>
+<br>
 
-## ![Home Section](https://img.shields.io/badge/home_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/L8HJQGRj/Portfolio-Dark.png)
-
-## ![About Section](https://img.shields.io/badge/about_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/LXrqyX6s/about.png)
-
-## ![Skills Section](https://img.shields.io/badge/skills_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/xd8cnHXC/skills.png)
-
-## ![Project Section](https://img.shields.io/badge/project_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/hGYhjjm0/projects.png)
-
-## ![Statistics Section](https://img.shields.io/badge/statistics_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/kG34Qpf6/statistics.png)
-
-## ![Contact Section](https://img.shields.io/badge/contact_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/Y2WLv1bL/contact.png)
-
-## ![Footer Section](https://img.shields.io/badge/footer_section-%231572B6.svg?style=for-the-badge)
-![image](https://i.postimg.cc/28NbhVKc/footer.png)
-
+Thanks [Bedimcode](https://github.com/bedimcode) for the UI inspiration.
 
 Thanks [Ionică Bizău](https://github.com/IonicaBizau) for the GitHub calendar.
