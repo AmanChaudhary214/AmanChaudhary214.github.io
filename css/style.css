@@ -713,6 +713,11 @@ main>p {
     transform: scale(1.025);
 }
 
+.portfolio_data {
+    margin-left: 0.5rem;
+    text-align: center;
+}
+
 .portfolio_title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
@@ -1166,6 +1171,10 @@ main>p {
         align-items: center;
     }
 
+    .portfolio_data {
+        text-align: left;
+    }
+
     .footer_social {
         font-size: 1.75rem;
     }
@@ -1233,6 +1242,10 @@ main>p {
 
     .portfolio_img {
         width: 90%;
+    }
+
+    .portfolio_data {
+        text-align: left;
     }
 
     .swiper-portfolio-icon {

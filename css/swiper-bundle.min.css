@@ -158,7 +158,7 @@
 }
 
 :root {
-    --swiper-navigation-size: 44px;
+    --swiper-navigation-size: 30px;
 }
 
 .swiper-button-next,
@@ -289,7 +289,7 @@
     height: 8px;
     display: inline-block;
     border-radius: 50%;
-    background: #000;
+    background: var(--first-color);
     opacity: 0.2;
 }
 
