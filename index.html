@@ -14,7 +14,7 @@
     <title>Aman Chaudhary | Portfolio</title>
 
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/calendar.css" />
+    <link rel="stylesheet" href="/css/calendar.css">
     <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
@@ -194,7 +194,7 @@
                             <span class="about_info-name">Hours of Coding</span>
                         </div>
                         <div>
-                            <span class="about_info-title">10+</span>
+                            <span class="about_info-title">15+</span>
                             <span class="about_info-name">Completed Projects</span>
                         </div>
                         <div>
@@ -1004,8 +1004,12 @@
             </div>
             <span class="section_subtitle">Github Calendar</span>
             <div class="react-activity-calendar calendar">
-                <!-- Loading stuff -->
-                Loading the data just for you.
+                <!-- Data will be fetched over here -->
+                <p>It appears that the API is retrieving contribution data more slowly than anticipated.</p>
+                <br>
+                <p>Visit <a href="https://github.com/AmanChaudhary214" target="_blank"
+                        style="text-decoration: none; color: var(--first-color);">AmanChaudhary214</a>
+                    to see it now.</p>
             </div>
         </section>
 
@@ -1191,7 +1195,10 @@
 
     <!-- ==================== GITHUB CALENDER ==================== -->
     <script>
-        // or enable responsive functionality
+        // not responsive
+        // GitHubCalendar(".calendar", "AmanChaudhary214");
+
+        // responsive functionality
         GitHubCalendar(".calendar", "AmanChaudhary214", {
             responsive: true,
             global_stats: true,

@@ -31,19 +31,23 @@ rect.ContributionCalendar-day[data-level='4'] {
 }
 
 .calendar {
-    font-family: 'Poppins', sans-serif;
-    border-radius: 6px;
-    min-height: 243px;
-    text-align: center;
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
+    min-height: 243px;
     padding: 1.5rem;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
     box-shadow: rgba(100, 100, 111, 0.15) 0px 5px 25px 0px;
     transition: 0.5s;
 }
 
 .calendar:hover {
     cursor: pointer;
+}
+
+.calendar>p {
+    font-size: var(--smaller-font-size);
 }
 
 .calendar-graph text.wday,
@@ -223,7 +227,7 @@ text.ContributionCalendar-label {
     .text-muted {
         font-size: 7px;
     }
-    
+
     .float-right {
         font-size: 8px;
     }
