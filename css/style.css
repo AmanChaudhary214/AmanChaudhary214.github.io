@@ -104,6 +104,7 @@ body.dark-theme {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    letter-spacing: 0.3px;;
 }
 
 html {
@@ -153,14 +154,10 @@ main>p {
 
 .section_title {
     font-size: var(--h1-font-size);
+    font-weight: 500;
     margin-bottom: var(--mb-3);
     text-decoration: underline;
     text-underline-offset: 6px;
-    transition: 0.3s;
-}
-
-.section_title:hover {
-    transform: translateY(-0.25rem);
 }
 
 .section_subtitle {
@@ -168,12 +165,6 @@ main>p {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
     margin-top: var(--mb-3);
-    transition: 0.3s;
-}
-
-.section_subtitle:hover {
-    color: var(--text-color);
-    transform: translateY(-0.25rem);
 }
 
 .section_title,
@@ -326,17 +317,6 @@ main>p {
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: 0.5s;
-}
-
-#resume-button-1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: var(--small-font-size);
-    font-weight: var(--font-medium);
-    color: var(--title-color);
-    background-color: transparent;
-    border: 0;
-    padding: 0 1.5rem 0;
     transition: 0.5s;
 }
 
@@ -1045,23 +1025,12 @@ main>p {
 }
 
 @media screen and (min-width: 767px) {
-    #resume-button-1 {
-        margin-right: 0.75rem;
-        border: 1px solid var(--first-color);
-        border-radius: 5px;
-        padding: 0px 5px 0px;
+    #resume-link-1 {
+        margin-right: 1rem;
     }
 
-    #resume-button-1:hover {
-        background-color: var(--first-color);
-    }
-
-    #resume-button-1>a {
+    #resume-link-1:hover {
         color: var(--first-color);
-    }
-
-    #resume-button-1>a:hover {
-        color: #fff;
     }
 
     .container {
