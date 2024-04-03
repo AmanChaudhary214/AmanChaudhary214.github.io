@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Sacramento&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
     --header-height: 3rem;
@@ -23,7 +23,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /* ========== Font & Typography ========== */
-    --body-font: 'Poppins', sans-serif;
+    --body-font: 'Poppins', sans-serif;     /*  "Nunito", sans-serif  */
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px */
     --big-font-size: 2rem;
@@ -416,7 +416,7 @@ main>p {
 
 .home_title>span {
     font-weight: 400;
-    font-family: cursive;
+    font-family: "Shantell Sans", cursive;  /* "Sacramento", cursive,   |   "Dekko", cursive */
 }
 
 .home_subtitle {
