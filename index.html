@@ -143,7 +143,7 @@
                     </div>
 
                     <div class="home_data">
-                        <h1 class="home_title" id="user-detail-name">Hi👋, I'm<br>Aman Chaudhary</h1>
+                        <h1 class="home_title" id="user-detail-name"><span class="auto-type-greet"></span><span>👋, I'm</span><br>Aman Chaudhary</h1>
                         <h3 class="home_subtitle"><span class="auto-type"></span></h3>
                         <p class="home_description">Java Backend Developer along with decent knowledge of Frontend
                             skills such as HTML, CSS & JavaScript.</p>
@@ -633,7 +633,7 @@
         <!-- ========== Projects ========== -->
         <section class="portfolio section" id="projects">
             <h2 class="section_title">Projects</h2>
-            <span class="section_subtitle">Hey visitor, here is a brief overview of some of my previous work...✍️</span>
+            <span class="section_subtitle">Hey visitor, here is a brief overview of some of my previous work.✍️</span>
 
             <!-- ========== Project 1 Slider ========== -->
             <div class="portfolio_container container swiper-container">
@@ -903,9 +903,9 @@
 
 
         <!-- ========== Statistics ========== -->
-        <!-- <section class="statistics section" id="statistics">
+        <section class="statistics section" id="statistics">
             <h2 class="section_title">Statistics</h2>
-            <span class="section_subtitle">My Github Statistics</span>
+            <span class="section_subtitle"><i class="uil uil-analytics"></i>&nbsp; My Github Stats &nbsp;<i class="uil uil-analytics"></i></span>
             <div class="statistics_container container grid">
                 <img id="github-stats-card"
                     src="https://github-readme-stats.vercel.app/api?username=AmanChaudhary214&theme=city_light&hide_border=true&include_all_commits=true&count_private=true"
@@ -917,18 +917,18 @@
                     src="https://github-readme-streak-stats.herokuapp.com/?user=AmanChaudhary214&ring=5094f0&currStreakLabel=5094f0&fire=5094f0&theme=city_light&hide_border=true"
                     alt="github-streak-stats">
             </div>
-            <span class="section_subtitle">Github Calendar</span>
+            <!-- <span class="section_subtitle">Github Calendar</span>
             <div class="react-activity-calendar calendar">
                 <p>It appears that the API is retrieving contribution data more slowly than anticipated.</p>
                 <br>
                 <p>Visit <a href="https://github.com/AmanChaudhary214" target="_blank"
                         style="text-decoration: none; color: var(--first-color);">AmanChaudhary214</a>
                     to see it now.</p>
-            </div>
-        </section> -->
+            </div> -->
+        </section>
 
 
-        <!-- <hr class="hr_break_line"> -->
+        <hr class="hr_break_line">
 
 
         <!-- ========== Contact ========== -->
@@ -1070,9 +1070,17 @@
     <!-- ==================== AUTO-TYPE SCRIPT ==================== -->
     <script>
         var typed = new Typed(".auto-type", {
-            strings: ["Learner", "Web Developer", "Photography Enthusiast", "Content-writer"],
+            strings: ["Learner ", "Web Developer ", "Photography Enthusiast ", "Content-writer "],
             typeSpeed: 20,
             backSpeed: 20,
+            backDelay: 1500,
+            loop: true,
+        });
+
+        var typed = new Typed(".auto-type-greet", {
+            strings: ["Hello ", "नमस्ते ", "Bonjour ", "Hola ", "Ciao "],
+            typeSpeed: 30,
+            backSpeed: 30,
             backDelay: 1500,
             loop: true,
         });
