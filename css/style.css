@@ -6,7 +6,7 @@
     /* ========== Colors ========== */
     /* Your primary color */
     --hue-color: 0;
-    /* purple: 260, red:0, olive:50, green:140, blue:230 */
+    /* purple: 260, red:0, olive:50, green:140, blue:230, walnut:25*/
 
     /* HSL color mode*/
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -394,8 +394,9 @@ main>p {
 }
 
 .home_blob-img {
-    width: 150px;
+    width: 180px;
     transition: 0.5s;
+    /* filter: grayscale(1); */
 }
 
 .home_blob-img:hover {
